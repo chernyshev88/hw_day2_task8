@@ -4,8 +4,6 @@ public class Hw_day2_task8 {
     public static void main(String[] args) {
         System.out.println("Дан массив: 1,-10,5,6,45,23,-45,-34,0,32,56,-1,2,-2");
         int[] a = {1, -10, 5, 6, 45, 23, -45, -34, 0, 32, 56, -1, 2, -2};
-
-        int sum_positive = 0;
         Arrays.sort(a);
         System.out.println("Максимальное значение:" + a[a.length - 1]);
         System.out.println("Сумма положительных эл-ов:" + sum_positive(a));
